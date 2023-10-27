@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+{% block content %}
+    <h1>Criar Orçamento</h1>
+    
+{{ form_start(form) }}
+<button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}
+
+{% endblock %}
+
+{% endblock %}
+
